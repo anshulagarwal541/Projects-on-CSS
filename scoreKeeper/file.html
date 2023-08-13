@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="picture">
+            <img src="https://cdn.pixabay.com/photo/2016/02/17/18/59/ping-pong-1205609_1280.jpg" alt="No image found">
+        </div>
+        <div class="heading">
+            Ping Pong Score Keeper
+        </div>
+        <div class="score">
+            <h3 class="points"><span id="player1">0</span> to <span id="player2">0</span></h3>
+            <p>
+                Use the buttons below to keep scores
+            </p>
+            <p class="limit">
+                <label for="scorelimit"><h3>Playing To</h3></label>
+                <select name="scorelimit" id="number">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </p>
+        </div>
+        <div class="buttons">
+            <button id="one">+1 Player One</button>
+            <button id="two">+1 Player Two</button>
+            <button id="reset">Reset</button>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

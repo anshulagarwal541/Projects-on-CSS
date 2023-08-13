@@ -1,0 +1,151 @@
+body{
+    background-color:lightskyblue;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+}
+.container{
+    width:800px;
+    height:500px;
+    border-width:2px;
+    border-style:solid;
+    border-color:white;
+    border-radius:2%;
+    background-color:white;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:flex-start;
+    padding:8px;
+}
+.divo1
+{
+    width:200px;
+    height:500px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    font-family:cursive;
+    align-items:center;
+    border-right-width:1px;
+    border-right-color:rgba(80,80,80,06);
+    border-right-style:solid;
+    padding-right:35px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+
+}
+.divo1 img
+{
+    transform:scale(0.8);
+}
+.divo1 #o1d1
+{
+    text-align:center;
+    color:grey;
+    text-transform:uppercase;
+    font-family:cursive;
+}
+.divo1 #o1d2
+{
+    color:blue;
+}
+.divo1 #o1d3
+{
+
+    color:blue;
+}
+.divo1 #o1d4
+{
+    align-items:center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bolder;
+    transform:scale(1.6);
+    color:blue;
+}
+.divo1 button{
+    border-width:2px;
+    border-style:solid;
+    border-color:blue;
+    background-color:none;
+    color:blue;
+    transform:scale(1.2);
+    border-radius:5px;
+}
+.divo2
+{
+    width:200px;
+    height:500px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    flex-direction:column;
+    font-family:cursive;
+    align-items:center;
+    border-right-width:1px;
+    border-right-color:rgba(80,80,80,06);
+    border-right-style:solid;
+    padding-right:40px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+
+
+}
+.divo2 img
+{
+    transform:scale(0.8);
+}
+.divo2 #o2d1
+{
+    text-align:center;
+    color:grey;
+    text-transform:uppercase;
+    font-family:cursive;
+}
+.divo2 #o2d2
+{
+    color:blue;
+}
+.divo2 #o2d3
+{
+    color:blue;
+}
+.divo2 #o2d4
+{
+    align-items:center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bolder;
+    transform:scale(1.6);
+    color:blue;
+}
+.divo2 button{
+    border-width:2px;
+    border-style:solid;
+    border-color:blue;
+    background-color:none;
+    color:blue;
+    transform:scale(1.2);
+    border-radius:5px;
+}
+.divo3
+{
+    width:200px;
+    height:500px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    flex-direction:column;
+    font-family:cursive;
+    align-items:center;
+    padding-right:40px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.divo3 img{
+    transform:scale(0.8);
+}
